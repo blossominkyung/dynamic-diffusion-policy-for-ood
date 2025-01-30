@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from utils.logger import logger
 
 from agent.ir_sde import IR_SDE
-from agent.diffusion import DiffusionPolicy
+from agent.diffusion_policy import DiffusionPolicy
 from agent.model import Critic
 
 from tqdm import tqdm
